@@ -1,4 +1,4 @@
-# ListaGeneria_DAMDUAL
+# ListaGenerica_DAMDUAL
 
 ### Transformar lista en Generica
 
