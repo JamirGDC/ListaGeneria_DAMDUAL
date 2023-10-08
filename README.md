@@ -2,7 +2,7 @@
 
 ### Transformar lista en Generica
 
-* Lista Inicial
+* Codigo Inicial
   ```
   public class NodeList {
 	//El propio elemento
@@ -44,13 +44,13 @@
 	{
 		this.prev = anterior;
 	}
-}
-
-public class Lista {
-	//El primer elemento de la lista
-	private NodeList first = null;
-	//El tamaño de la lista
-	private int length = 0;
+	}
+	
+	public class Lista {
+		//El primer elemento de la lista
+		private NodeList first = null;
+		//El tamaño de la lista
+		private int length = 0;
 	
 	/**
 		Devuelve el tamaño.
@@ -184,6 +184,18 @@ public class Lista {
 			return "Lista vacía";
 		}
 	}
-}
+	}
   
   ```
+
+* Primeros Cambios
+  * En primer lugar intruzco el parametro generico 'T' que representa el tipo de elemento que la lista va a contener, en lugar de usar int en la clase nodeList 
+	
+	<image src="/CleanShot 2023-10-08 at 18.24.17.png" alt="Descripción de la imagen">
+
+  * Se hace lo mismo para las demas clases Lista, asi como para sus metodos.
+    
+	<image src="/CleanShot 2023-10-08 at 18.24.17.png" alt="Descripción de la imagen">
+
+
+
